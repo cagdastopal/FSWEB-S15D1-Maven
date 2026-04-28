@@ -26,15 +26,23 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 ### Mobile Phone
 
 * org.example.mobile paketi altında ```MobilePhone``` ve ```Contact``` isimli bir sınıf oluşturacağız.
-* ```MobilePhone``` sınıfını 2 tane field tutması lazım. Bir tanesi ```myNumber``` isminde ve String tipinde, ```myContacts``` isminde ve Contact ArrayList'i olmalı. 2 field içinde getter methodu tanımlayınız.
+* ```MobilePhone``` sınıfını 2 tane field tutması lazım. Bir tanesi ```myNumber``` isminde ve String tipinde, 
+* ```myContacts``` isminde ve Contact ArrayList'i olmalı. 2 field içinde getter methodu tanımlayınız.
 * Constructor metodu myNumber değerini doldurmalı.
 * 7 tane metodumuz olmalı
-* ```addNewContact``` Contact türünde bir parametre alır. Boolean türünde bir değer döndürür. Contact listede yoksa Contact objesini listeye ekleyip ```true``` varsa ```false``` değeri döner.  
-* ```updateContact``` Contact türünde iki parametre alır. Contact lardan biri eskisi biri yenisinin değerini tutar. Boolean bir değer döner. Eğer Contact listede varsa ve doğru bir şekilde update edilirse ```true``` değer döner. Aksi durumda  ```false``` değeri döner.
-* ```removeContact``` Contact türünde bir parametre alır. Eğer Contact listede varsa ve başarılı bir şekilde silinirse ```true``` aksi durumda ```false``` değeri döner.,
-* ```findContact``` Contact türünde bir parametre alır ve ```int``` değer döndürür. Dönüş değeri Contact objesinin listedeki indeksi olmalıdır. Eğer eleman listede yoksa ```-1``` değeri döner.
+* ```addNewContact``` Contact türünde bir parametre alır. Boolean türünde bir değer döndürür. 
+* Contact listede yoksa Contact objesini listeye ekleyip ```true``` varsa ```false``` değeri döner.  
+* ```updateContact``` Contact türünde iki parametre alır. Contact lardan biri eskisi biri yenisinin değerini tutar. 
+* Boolean bir değer döner. Eğer Contact listede varsa ve doğru bir şekilde update edilirse ```true``` değer döner. 
+* Aksi durumda  ```false``` değeri döner.
+* ```removeContact``` Contact türünde bir parametre alır. 
+* Eğer Contact listede varsa ve başarılı bir şekilde silinirse ```true``` aksi durumda ```false``` değeri döner.,
+* ```findContact``` Contact türünde bir parametre alır ve ```int``` değer döndürür. 
+* Dönüş değeri Contact objesinin listedeki indeksi olmalıdır. Eğer eleman listede yoksa ```-1``` değeri döner.
 * ```findContact``` yukardaki findContact metodu ile aynı şekilde çalışır. Sadece parametresinin tipi ```String``` olmalıdır.
-* ```queryContact``` String tipinde bir değer alır ve Contact türünde bir değer döndürür. String parametre Contact ismini içerir. Eğer ilgili isimdeki Contact listede varsa ilgili Contact objesini döndürür. Yoksa null döndürür
+* ```queryContact``` String tipinde bir değer alır ve Contact türünde bir değer döndürür. 
+* String parametre Contact ismini içerir. Eğer ilgili isimdeki Contact listede varsa ilgili Contact objesini döndürür. 
+* Yoksa null döndürür
 * ```printContact``` parametre almaz return değeri de yoktur. Contactların tamamını  aşağıdaki formattaki gibi listeler.
   Contact List:
 1. Bob -> 31415926
@@ -45,5 +53,6 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 * Contact sınıfını tanımlayınız. ```name``` ve ```phoneNumber``` adında String tipinde 2 değişkeni olmalı.
 * Constructor metodu ```name``` ve ```phoneNumber``` parametrelerini almalı ve değer atamalarını yapmalı.
 * ```getName``` name için getter metodu, ```getPhoneNumber``` phoneNumber için getter metodu tanımlanmalı. 
-* ```createContact``` iki parametre alan bir metod olmalı.(Name ve phoneNumber ikiside String olmalı) aldığı iki değeri kullanarak bir Contact ```instance``` oluşturmalı ve bunu dönmeli.
+* ```createContact``` iki parametre alan bir metod olmalı.(Name ve phoneNumber ikiside String olmalı) 
+* aldığı iki değeri kullanarak bir Contact ```instance``` oluşturmalı ve bunu dönmeli.
 * ```createContact``` metodu ```static``` olmalı.
